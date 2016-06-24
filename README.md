@@ -2,7 +2,6 @@
 
 Email alerts are ignored, SMS alerts are weirdly intrusive, face-to-face alerts require eye contact. Since all of the cool kids are on Slack now, let's send our alerts to their Slack channels! This lambda function takes messages from an AWS SNS queue and forwards them to the channels of your choice.
 
-* Get spam from Data Pipelines
 ### Setup
 
 1. Set up an [incoming webhook](https://api.slack.com/incoming-webhooks) on your Slack team. Note the webhook url.
